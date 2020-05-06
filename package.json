@@ -1,0 +1,26 @@
+{
+    "name": "sparc",
+    "displayName": "SPARC Assembly Syntax Highlighter",
+    "description": "Syntax highlighting for SPARC Assembly in VSCode",
+    "version": "0.0.1",
+    "publisher": "zilonkaj",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sparc",
+            "aliases": ["SPARC", "sparc"],
+            "extensions": [".m",".s"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sparc",
+            "scopeName": "source.sparc",
+            "path": "./syntaxes/sparc.tmLanguage.xml"
+        }]
+    }
+}
