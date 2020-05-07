@@ -2,7 +2,7 @@
     "name": "sparc",
     "displayName": "SPARC for VSCode",
     "description": "Syntax highlighting and code snippets for SPARC Assembly in VSCode",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "publisher": "zilonkaj",
     "repository": {
         "url": "https://github.com/zilonkaj/SPARC-for-VSCode",
