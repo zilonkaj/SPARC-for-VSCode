@@ -8,7 +8,7 @@
         "vscode": "^1.44.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages", "Snippets", "Language Packs"
     ],
     "contributes": {
         "languages": [{
@@ -21,6 +21,12 @@
             "language": "sparc",
             "scopeName": "source.sparc",
             "path": "./syntaxes/sparc.tmLanguage.xml"
-        }]
+        }],
+        "snippets": [
+            {
+                "language": "sparc",
+                "path": "./snippets.json"
+            }
+        ]
     }
 }

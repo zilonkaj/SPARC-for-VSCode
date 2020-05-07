@@ -1,0 +1,164 @@
+{
+	"segment": {
+		"prefix": ".seg",
+		"body": [".seg\t\"$0\""]
+	  },
+	"section": {
+		"prefix": ".section",
+		"body": [".section\t\"$0\""]
+	  },
+	"common": {
+		"prefix": ".common",
+		"body": [".common\t$1,$2,$3"]
+	  },
+	"ascii": {
+		"prefix": ".ascii",
+		"body": [".ascii\t\"$0\""]
+	  },
+	"asciz": {
+		"prefix": ".asciz",
+		"body": [".asciz\t\"$0\""]
+	  },
+	"align": {
+		"prefix": ".align",
+		"body": [".align\t$0"]
+	  },
+	"file": {
+		"prefix": ".file",
+		"body": [".file\t\"$0\""]
+	  },
+	"proc": {
+		"prefix": ".proc",
+		"body": [".proc\t$0"]
+	  },
+	"global": {
+		"prefix": ".global",
+		"body": [".global\t$0"]
+	  },
+	"save": {
+		"prefix": "save",
+		"body": ["save\t%$1,($2),%$3"]
+	  },
+	  "add": {
+		"prefix": "add",
+		"body": ["add\t%$1,$2,%$3"]
+	  },
+	  "sub": {
+		"prefix": "sub",
+		"body": ["sub\t%$1,$2,%$3"]
+	  },
+	  "smul": {
+		"prefix": "smul",
+		"body": ["smul\t%$1,$2,%$3"]
+	  },
+	  "and": {
+		"prefix": "and",
+		"body": ["and\t%$1,$2,%$3"]
+	  },
+	  "andcc": {
+		"prefix": "andcc",
+		"body": ["andcc\t%$1,%$2,%$3"]
+	  },
+	  "sra": {
+		"prefix": "sra",
+		"body": ["sra\t%$1,$2,%$3"]
+	  },
+	  "sll": {
+		"prefix": "sll",
+		"body": ["sll\t%$1,$2,%$3"]
+	  },
+	  "srl": {
+		"prefix": "srl",
+		"body": ["srl\t%$1,$2,%$3"]
+	  },
+	  "mov": {
+		"prefix": "mov",
+		"body": ["mov\t$1,%$2"]
+	  },
+	  "st": {
+		"prefix": "st",
+		"body": ["st\t$%1,[%$2]"]
+	  },
+	  "stb": {
+		"prefix": "stb",
+		"body": ["stb\t$%1,[%$2]"]
+	  },
+	  "ld": {
+		"prefix": "ld",
+		"body": ["ld\t[%$1],%$2"]
+	  },
+	  "ldd": {
+		"prefix": "ldd",
+		"body": ["ldd\t[%$1],%$2"]
+	  },
+	  "ldsb": {
+		"prefix": "ldsb",
+		"body": ["ldsb\t[%$1],%$2"]
+	  },
+	  "sethi": {
+		"prefix": "sethi",
+		"body": ["sethi\t%hi($1),%$2"]
+	  },
+	  "sethi/or": {
+		"prefix": "sethi/or",
+		"body": [	"sethi\t%hi($1),%$2",
+					"or\t%$3,%lo($4),%$5"]
+	  },
+	  "sethi/add": {
+		"prefix": "sethi/add",
+		"body": [	"sethi\t%hi($1),%$2",
+					"add\t%$3,%lo($4),%$5"]
+	  },
+	  "call": {
+		"prefix": "call",
+		"body": ["call\t$1,$2"]
+	  },
+	  "fitod": {
+		"prefix": "fitod",
+		"body": ["fitod\t%$1,%$2"]
+	  },
+	  "fdtoi": {
+		"prefix": "fdtoi",
+		"body": ["fdtoi\t%$1,%$2"]
+	  },
+	  "fdivd": {
+		"prefix": "fdivd",
+		"body": ["fdivd\t%$1,%$2,%$3"]
+	  },
+	  "ba,a": {
+		"prefix": "ba,a",
+		"body": ["ba,a\t$0"]
+	  },
+	  "cmp": {
+		"prefix": "cmp",
+		"body": ["cmp\t%$1,%$2"]
+	  },
+	  "bge": {
+		"prefix": "bge",
+		"body": ["bge\t$0"]
+	  },
+	  "bl": {
+		"prefix": "bl",
+		"body": ["bl\t$0"]
+	  },
+	  "bg": {
+		"prefix": "bg",
+		"body": ["bg\t$0"]
+	  },
+	  "ble": {
+		"prefix": "ble",
+		"body": ["ble\t$0"]
+	  },
+	  "bne": {
+		"prefix": "bne",
+		"body": ["bne\t$0"]
+	  },
+	  "be": {
+		"prefix": "be",
+		"body": ["be\t$0"]
+	  },
+	  "andn": {
+		"prefix": "andn",
+		"body": ["andn\t%$1,$2,%$3"]
+	  }
+}
