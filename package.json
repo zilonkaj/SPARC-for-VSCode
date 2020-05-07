@@ -8,7 +8,7 @@
         "url": "https://github.com/zilonkaj/SPARC-for-VSCode",
         "type": "git"
     },
-    "icon": "./Sparc-logo.png",
+    "icon": "Sparc-logo.png",
     "engines": {
         "vscode": "^1.44.0"
     },
