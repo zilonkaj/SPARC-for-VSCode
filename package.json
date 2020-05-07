@@ -4,6 +4,10 @@
     "description": "Syntax highlighting for SPARC Assembly in VSCode",
     "version": "0.0.1",
     "publisher": "zilonkaj",
+    "repository": {
+        "url": "https://github.com/zilonkaj/SPARC-for-VSCode",
+        "type": "git"
+    },
     "engines": {
         "vscode": "^1.44.0"
     },
