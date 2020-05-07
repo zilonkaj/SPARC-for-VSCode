@@ -1,13 +1,14 @@
 {
     "name": "sparc",
-    "displayName": "SPARC Assembly Syntax Highlighter",
-    "description": "Syntax highlighting for SPARC Assembly in VSCode",
+    "displayName": "SPARC for VSCode",
+    "description": "Syntax highlighting and code snippets for SPARC Assembly in VSCode",
     "version": "1.0.0",
     "publisher": "zilonkaj",
     "repository": {
         "url": "https://github.com/zilonkaj/SPARC-for-VSCode",
         "type": "git"
     },
+    "icon": "./Sparc-logo.png",
     "engines": {
         "vscode": "^1.44.0"
     },
